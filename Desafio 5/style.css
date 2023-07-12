@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-weight: 400;
+}
+
+body {
+  background: #BFD7E4;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  content: '';
+
+  background: #293241;
+
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 465px;
+  left: 0px;
+  top: 0px;
+}
+
+h1,
+legend, .button {
+  font-family: 'Staatliches', cursive;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 45px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+header p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  color: white;
+
+  margin-top: 107px;
+}
+
+svg {
+  margin: 17.5px 0 32px 0;
+}
+
+legend {
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+
+  margin-bottom: 31px;
+}
+
+label {
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #4E4958;
+}
+
+form legend {
+  color: #253B51;
+}
+
+#fieldset-1 {
+
+  margin: 0;
+  height: 133px;
+
+  color: #fff;
+
+  padding: 50px 275px;
+
+  background: #f67669;
+  border-radius: 20px 20px 0px 0px;
+}
+
+span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+
+  margin-left: 8.5px;
+}
+
+form {
+  background: #fff;
+  border-radius: 0px 0px 20px 20px;
+
+  padding: 30px 65px 65px 65px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  margin-bottom: 392px;
+}
+
+input, #mentor, textarea {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  height: 55.53px;
+
+  padding: 10px;
+}
+
+.wrapper-fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+
+  margin-bottom: 16px;
+}
+
+#mentor{
+  width: 300px;
+}
+
+.feedback {
+  margin-top: 31px;
+}
+
+textarea {
+  height: 167px;
+}
+
+#check-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+#date{
+  width: 300px;
+  margin-right: 32px;
+}
+
+.button {
+padding: 15px 40px;
+width: 622px;
+font-size: 20px;
+line-height: 26px;
+color: white;
+background: #F67669;
+border-radius: 8px;
+margin-top: 64px;
+}
+
+.button:hover {
+ filter: brightness(1.2);
+ cursor: pointer;
+}
