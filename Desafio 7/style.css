@@ -127,12 +127,7 @@ footer a:hover {
   cursor: pointer;
 }
 
-/* .container {
-  width: clamp(33rem, 30rem + 60vw, 117rem);
-  margin: 0 auto;
-} */
-
-/* Animaçoes */
+/* animations */
 
 @keyframes downtop {
   0% {
